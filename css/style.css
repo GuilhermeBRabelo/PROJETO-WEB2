@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins';
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* SECTION 1 */
+#containerCronometro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 200px;
+    width: 100%;
+
+    background-color: aqua;
+}
+
+#tempo {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #044c7c;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    background-color: #021e30;
+}
+
+.btn:disabled {
+    background-color: #ccc;
+}
+
+/* SECTION 1 */
+
+
+
+
+
+/* SECTION 2 */
+
+#containerCadeiras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 200px;
+    width: 100%;
+
+    background-color: rgb(3, 82, 82);
+}
+
+
+/* SECTION 2 */
