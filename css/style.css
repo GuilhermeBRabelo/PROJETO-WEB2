@@ -95,12 +95,59 @@ main {
     padding: 20px;
 }
 
-.sessoes {
+/* sessão dos jogos */
+
+#container-GameInfo {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
     width: 100%;
     height: 1010px;
-    background-color: transparent;
-    border: 2px solid transparent;
+
+    background-size: cover;
+    background-position: center;
+
+    background-color: rgb(83, 41, 41);
 }
+
+#bloco1 {   
+    background-color: yellow;
+    width: 600px;
+    height: 800px;
+}
+
+#bloco2 {
+    background-color: rgb(21, 119, 37);
+
+    width: 800px;
+    height: 800px;
+}
+
+/* #info-game {
+    border: 2px solid rgb(0, 255, 55);
+}
+
+#title-game {
+    font-size: 60px;
+}
+
+
+#description {
+    border: 2px solid yellow;
+}
+
+#imagem-game {
+    width: 180px;
+    height: 240px;
+    border-radius: 8px;
+    background-color: rgb(141, 53, 53);
+} */
+
+
+
+/* sessão dos jogos */
 
 footer {
     display: flex;
