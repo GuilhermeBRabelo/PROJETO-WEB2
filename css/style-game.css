@@ -40,9 +40,6 @@ body {
     color: var(--text-color);
 }
 
-
-
-
 /* COMECO DO HEADER */
 
 /* header base */
@@ -72,8 +69,6 @@ header {
 
 /* FIM DO HEADER */
 
-
-
 /* COMECO DO MAIN */
 
 main {
@@ -81,7 +76,77 @@ main {
     padding: 32px;
 }
 
+/* SECTION 1 - Info do Jogo */
+#container-informacoes-jogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+#container-capa-jogo {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(99, 5, 5);
+}
+
+#container-capa-jogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#container-descricao-jogo {
+    background-color: rgb(53, 3, 3);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    color: white;
+}
+
+#container-descricao-jogo h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+#container-descricao-jogo p {
+    font-size: 0.95rem;
+    color: #ccc;
+    margin-bottom: 16px;
+}
+
+#container-descricao-jogo h3 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* SECTION 2 - Avaliações */
+#container-avaliacoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+#container-avaliacao-global,
+#container-avaliacao-clientes {
+    background-color: #05e005;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    min-height: 150px;
+}
+
 /* FIM DO MAIN */
+
+
 
 
 
@@ -121,6 +186,9 @@ footer {
 
 
 
+
+
+
 /* RESPONSIVIDADE */
 @media (max-width: 600px) {
     header {
@@ -135,6 +203,23 @@ footer {
 
     #container-nav {
         display: none;
+    }
+
+    main {
+        padding: 16px;
+    }
+
+    #container-capa-jogo {
+        width: 150px;
+        height: 225px;
+    }
+
+    #container-descricao-jogo {
+        width: 100%;
+    }
+
+    #container-descricao-jogo h2 {
+        font-size: 1.5rem;
     }
 
     footer {
