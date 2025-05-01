@@ -61,17 +61,7 @@ main section{
     padding: 50px;
 }
 
-
-
-
-
-
-
-
-
-/* section 1 = grid e cards */
-
-#novidades h2 {
+h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 24px;
@@ -81,6 +71,8 @@ main section{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* section 1 = grid e cards */
 
 .grid-jogos {
     display: flex;
@@ -113,44 +105,10 @@ main section{
     display: block;
 }
 
-/* section 1 = grid e cards */
-
-
 /* section 2 = grid e cards */
 
-#suasRecomendações h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 24px;
-    text-align: center;
-    
-    background: linear-gradient(to right, #6C0BA9, #FF2A6D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.grid-jogos-recomendacoes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.recomendacoes {
     gap: 68px;
-}
-
-.card-jogo-recomendacoes {
-    border-radius: 8px;
-    overflow: hidden;
-    width: 180px;
-    height: 250px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    transition: transform 0.2s ease;
-}
-
-.card-jogo-recomendacoes:hover {
-    transform: scale(1.05);
 }
 
 .card-jogo img {
@@ -160,20 +118,7 @@ main section{
     display: block;
 }
 
-/* section 2 = grid e cards */
-
-
-
 /* FIM DO MAIN */
-
-
-
-
-
-
-
-
-
 
 
 
