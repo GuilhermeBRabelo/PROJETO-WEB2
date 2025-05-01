@@ -57,7 +57,7 @@ header {
 }
 
 /* logo */
-#container-logo img {
+#container-logo {
     height: 60px;
     max-width: 100%;
     object-fit: contain;
